@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LobbyAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: cbf93d9b40d43724face7fc34243bf58, type: 3}
+    - {fileID: 2800000, guid: 6fa944c2b12ee584099fc7fd8d500158, type: 3}
+    - {fileID: 2800000, guid: 367d3cf73dd5d29408ce4419e468c2c4, type: 3}
+    - {fileID: 2800000, guid: 216983a0e74c78848b2993158d6fca67, type: 3}
+    - {fileID: 2800000, guid: db7a2525d560f344db8bf235a777b9e2, type: 3}
+    - {fileID: 2800000, guid: 8a76817ed3029fc43aae465462bd0a66, type: 3}
+    - {fileID: 2800000, guid: 62622d91154b03049a0ff731e6668b1d, type: 3}
+    - {fileID: 2800000, guid: efef4999e41f7864dabddbe62542c605, type: 3}
+    - {fileID: 2800000, guid: 83460116d444aad409afeaaa4dd0b807, type: 3}
+    - {fileID: 2800000, guid: e5f01b70c8755c44e81f516dee994356, type: 3}
+    - {fileID: 2800000, guid: 66c1af00aa5c9824fb07a99a9f9457ec, type: 3}
+    - {fileID: 2800000, guid: f8ad121ea73d7994b99710e4747c600f, type: 3}
+    totalSpriteSurfaceArea: 1436584
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 66c1af00aa5c9824fb07a99a9f9457ec, type: 3}
+  - {fileID: 21300000, guid: e5f01b70c8755c44e81f516dee994356, type: 3}
+  - {fileID: 21300000, guid: 216983a0e74c78848b2993158d6fca67, type: 3}
+  - {fileID: 21300000, guid: 62622d91154b03049a0ff731e6668b1d, type: 3}
+  - {fileID: 21300000, guid: 6fa944c2b12ee584099fc7fd8d500158, type: 3}
+  - {fileID: 21300000, guid: db7a2525d560f344db8bf235a777b9e2, type: 3}
+  - {fileID: 21300000, guid: 83460116d444aad409afeaaa4dd0b807, type: 3}
+  - {fileID: 21300000, guid: 367d3cf73dd5d29408ce4419e468c2c4, type: 3}
+  - {fileID: 21300000, guid: efef4999e41f7864dabddbe62542c605, type: 3}
+  - {fileID: 21300000, guid: cbf93d9b40d43724face7fc34243bf58, type: 3}
+  - {fileID: 21300000, guid: f8ad121ea73d7994b99710e4747c600f, type: 3}
+  - {fileID: 21300000, guid: 8a76817ed3029fc43aae465462bd0a66, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Lobby Deal Mask
+  - Icon Chip
+  - Gui Load Bar Plate
+  - Gui Navigation Empty
+  - Gui Load Bar Full
+  - Gui Middle Ribbon Hover
+  - Gui Plate Lobby
+  - Gui Load Bar Mask
+  - Gui Navigation Full
+  - Gui Input Big
+  - Lobby Deal Empty
+  - Gui Middle Ribbon Normal
+  m_RenderDataMap: {}
+  m_Tag: LobbyAtlas
+  m_IsVariant: 0

@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: newAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: ec7c170b4a298b24f9b0494a22e102b8, type: 3}
+    - {fileID: 2800000, guid: fd8de7e7237af5545a4f4414dc8c1bf1, type: 3}
+    - {fileID: 2800000, guid: 74a4184713e6b1043ac7961c517f664f, type: 3}
+    - {fileID: 2800000, guid: 2bc2183f2d7c0b54eadce3a8dfc21ad3, type: 3}
+    - {fileID: 2800000, guid: 7833b3f04b4636a4fa8f13ad7d6892e1, type: 3}
+    - {fileID: 2800000, guid: c1cacf996fb97e8449cf70289b75a745, type: 3}
+    - {fileID: 2800000, guid: d7c997491935f9349b7bf473d9d60701, type: 3}
+    - {fileID: 2800000, guid: 96dfdc7d18890424e9137b4c4d9df1cc, type: 3}
+    - {fileID: 2800000, guid: d8fb2dc24ebc7484892cc37533e1a053, type: 3}
+    - {fileID: 2800000, guid: d009559b3d817164ab8915f139935adb, type: 3}
+    - {fileID: 2800000, guid: 72e9806312cfc0d40913023b91701f7f, type: 3}
+    - {fileID: 2800000, guid: 0ecc049694d269d4a888efb8a612a871, type: 3}
+    - {fileID: 2800000, guid: 2e9343c1d235f0b4d94f213ccfc41acb, type: 3}
+    - {fileID: 2800000, guid: 76a61ff5a4b165443bfb8ed3e4d4d637, type: 3}
+    - {fileID: 2800000, guid: 273d7986c506e2f43a3c33af631d259b, type: 3}
+    - {fileID: 2800000, guid: f772fc4459081714ca8ecc175df8e514, type: 3}
+    - {fileID: 2800000, guid: 2e190f9d45a447e428fb0c1a2b40c66a, type: 3}
+    - {fileID: 2800000, guid: 1cb799789190f4f469f277a541c12fae, type: 3}
+    - {fileID: 2800000, guid: 7d4511e21fff999498e03a06d738903d, type: 3}
+    - {fileID: 2800000, guid: e96cfff6b3f49934f945a3a157e0fe54, type: 3}
+    - {fileID: 2800000, guid: 6a27088eebce1c14da28b40db6069363, type: 3}
+    - {fileID: 2800000, guid: 239309fbdfe71ca4799a5e79f3ff5f09, type: 3}
+    - {fileID: 2800000, guid: f0acffeae75cd6443b9fc059e5ad5832, type: 3}
+    - {fileID: 2800000, guid: a3e0c3367a8bc644bac5e954cd78dd02, type: 3}
+    totalSpriteSurfaceArea: 2149821
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7833b3f04b4636a4fa8f13ad7d6892e1, type: 3}
+  - {fileID: 21300000, guid: 2e9343c1d235f0b4d94f213ccfc41acb, type: 3}
+  - {fileID: 21300000, guid: d8fb2dc24ebc7484892cc37533e1a053, type: 3}
+  - {fileID: 21300000, guid: 7d4511e21fff999498e03a06d738903d, type: 3}
+  - {fileID: 21300000, guid: 72e9806312cfc0d40913023b91701f7f, type: 3}
+  - {fileID: 21300000, guid: f772fc4459081714ca8ecc175df8e514, type: 3}
+  - {fileID: 21300000, guid: 76a61ff5a4b165443bfb8ed3e4d4d637, type: 3}
+  - {fileID: 21300000, guid: a3e0c3367a8bc644bac5e954cd78dd02, type: 3}
+  - {fileID: 21300000, guid: 273d7986c506e2f43a3c33af631d259b, type: 3}
+  - {fileID: 21300000, guid: 0ecc049694d269d4a888efb8a612a871, type: 3}
+  - {fileID: 21300000, guid: e96cfff6b3f49934f945a3a157e0fe54, type: 3}
+  - {fileID: 21300000, guid: 74a4184713e6b1043ac7961c517f664f, type: 3}
+  - {fileID: 21300000, guid: fd8de7e7237af5545a4f4414dc8c1bf1, type: 3}
+  - {fileID: 21300000, guid: 1cb799789190f4f469f277a541c12fae, type: 3}
+  - {fileID: 21300000, guid: d7c997491935f9349b7bf473d9d60701, type: 3}
+  - {fileID: 21300000, guid: c1cacf996fb97e8449cf70289b75a745, type: 3}
+  - {fileID: 21300000, guid: f0acffeae75cd6443b9fc059e5ad5832, type: 3}
+  - {fileID: 21300000, guid: ec7c170b4a298b24f9b0494a22e102b8, type: 3}
+  - {fileID: 21300000, guid: d009559b3d817164ab8915f139935adb, type: 3}
+  - {fileID: 21300000, guid: 96dfdc7d18890424e9137b4c4d9df1cc, type: 3}
+  - {fileID: 21300000, guid: 2e190f9d45a447e428fb0c1a2b40c66a, type: 3}
+  - {fileID: 21300000, guid: 6a27088eebce1c14da28b40db6069363, type: 3}
+  - {fileID: 21300000, guid: 2bc2183f2d7c0b54eadce3a8dfc21ad3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - gem
+  - pannel_for coins and gems
+  - indicator for minigame
+  - active level
+  - level_panel
+  - progressbar_empty
+  - pannel_heart
+  - block inside block
+  - play btn
+  - Life count_panel
+  - shop_btn
+  - coin
+  - spin wheel icon
+  - progressbar_plate
+  - gift
+  - gem_panel
+  - block
+  - +
+  - Level star
+  - heart
+  - progressbar_full
+  - MAX-normal
+  - coins_panel
+  m_RenderDataMap: {}
+  m_Tag: newAtlas
+  m_IsVariant: 0

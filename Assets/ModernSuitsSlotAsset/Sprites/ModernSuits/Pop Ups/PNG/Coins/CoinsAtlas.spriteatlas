@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CoinsAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: ad89fcc3ab976134d9beaf41216fa533, type: 3}
+    - {fileID: 2800000, guid: 7568b2a9c8020d74cbcdbf8a8f8f4808, type: 3}
+    - {fileID: 2800000, guid: f59ec0c7411fbec45be07c731642907e, type: 3}
+    - {fileID: 2800000, guid: 0300ba36291bc14499963aa66c0196ff, type: 3}
+    - {fileID: 2800000, guid: 7dad9e83f7ff2db4ab0123eece68ddd3, type: 3}
+    - {fileID: 2800000, guid: a2ad0aa27159e9c4ea0fb5c3ea98f558, type: 3}
+    - {fileID: 2800000, guid: 359a787878ea17c4eaa33de0681d1384, type: 3}
+    - {fileID: 2800000, guid: c72ed9a3326a7b04d8f02dfc61c7ef61, type: 3}
+    - {fileID: 2800000, guid: a820cb793b206cf43b84db8563d5a536, type: 3}
+    - {fileID: 2800000, guid: 2f20b1fb9da8eec48b7559a21bef329c, type: 3}
+    - {fileID: 2800000, guid: 7acebec1acb32aa4e86f7033fdc9b6c6, type: 3}
+    - {fileID: 2800000, guid: 78de90f00da098948a479dddd3102f27, type: 3}
+    - {fileID: 2800000, guid: 71be922095c38d047bc19ce675fedf9c, type: 3}
+    - {fileID: 2800000, guid: e8939e9c3755fb04e9e8b0ffdc2f74bb, type: 3}
+    totalSpriteSurfaceArea: 771867
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 71be922095c38d047bc19ce675fedf9c, type: 3}
+  - {fileID: 21300000, guid: 78de90f00da098948a479dddd3102f27, type: 3}
+  - {fileID: 21300000, guid: 7acebec1acb32aa4e86f7033fdc9b6c6, type: 3}
+  - {fileID: 21300000, guid: a2ad0aa27159e9c4ea0fb5c3ea98f558, type: 3}
+  - {fileID: 21300000, guid: 7dad9e83f7ff2db4ab0123eece68ddd3, type: 3}
+  - {fileID: 21300000, guid: c72ed9a3326a7b04d8f02dfc61c7ef61, type: 3}
+  - {fileID: 21300000, guid: ad89fcc3ab976134d9beaf41216fa533, type: 3}
+  - {fileID: 21300000, guid: 0300ba36291bc14499963aa66c0196ff, type: 3}
+  - {fileID: 21300000, guid: f59ec0c7411fbec45be07c731642907e, type: 3}
+  - {fileID: 21300000, guid: 359a787878ea17c4eaa33de0681d1384, type: 3}
+  - {fileID: 21300000, guid: a820cb793b206cf43b84db8563d5a536, type: 3}
+  - {fileID: 21300000, guid: 7568b2a9c8020d74cbcdbf8a8f8f4808, type: 3}
+  - {fileID: 21300000, guid: 2f20b1fb9da8eec48b7559a21bef329c, type: 3}
+  - {fileID: 21300000, guid: e8939e9c3755fb04e9e8b0ffdc2f74bb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Shop Coins 2
+  - Shop Coins 1
+  - Pop Up Coin Small
+  - Bonus Coins 4
+  - Bonus Coins 3
+  - Bonus Coins 6
+  - Shop Coins 4
+  - Bonus Coins 2
+  - Bonus Coins 1
+  - Bonus Coins 5
+  - Bonus Coins 7
+  - Bigwin Money
+  - Pop Up Coin Big
+  - Shop Coins 3
+  m_RenderDataMap: {}
+  m_Tag: CoinsAtlas
+  m_IsVariant: 0

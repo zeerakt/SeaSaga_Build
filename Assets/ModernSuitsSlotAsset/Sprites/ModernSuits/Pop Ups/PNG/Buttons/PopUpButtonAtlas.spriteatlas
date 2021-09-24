@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PopUpButtonAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 8eea8df5abe77554799021706ad44d71, type: 3}
+    - {fileID: 2800000, guid: 57fbd156092d75d40b2cefdefe1b5d4b, type: 3}
+    - {fileID: 2800000, guid: 3ab3e045b6fd4a848a24551fadf5a738, type: 3}
+    - {fileID: 2800000, guid: d404aa827952c6e43adcd58c50232a16, type: 3}
+    - {fileID: 2800000, guid: fb89f6537f38e4940827ead0dfea1d4e, type: 3}
+    - {fileID: 2800000, guid: f932b9bc259c288438aacc6a668f94a5, type: 3}
+    - {fileID: 2800000, guid: 1d96aa6c85d69bc4e838c8a5fecbc638, type: 3}
+    - {fileID: 2800000, guid: 7e46a43d0acf93f449f041f4e8f4d4cf, type: 3}
+    - {fileID: 2800000, guid: 20bb356a73f1a6b41a74ab895ceb6254, type: 3}
+    - {fileID: 2800000, guid: 01f7e0fa0db4b32448b670b14ef7707a, type: 3}
+    - {fileID: 2800000, guid: 565421b49e519924a9c6c8e9d79fd1df, type: 3}
+    - {fileID: 2800000, guid: 030ce9a9c9008c2479a74e1fa744024d, type: 3}
+    - {fileID: 2800000, guid: 8e3526d2994ce264781e095b37a469c5, type: 3}
+    - {fileID: 2800000, guid: fcbc6251ca72ece4ba4d9b84f7bbce03, type: 3}
+    - {fileID: 2800000, guid: 21be5182b0465d641beb0e3d17fde701, type: 3}
+    - {fileID: 2800000, guid: c9fbc38ecd6241e49b5eba05612d6944, type: 3}
+    totalSpriteSurfaceArea: 521762
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: fcbc6251ca72ece4ba4d9b84f7bbce03, type: 3}
+  - {fileID: 21300000, guid: 21be5182b0465d641beb0e3d17fde701, type: 3}
+  - {fileID: 21300000, guid: d404aa827952c6e43adcd58c50232a16, type: 3}
+  - {fileID: 21300000, guid: 8e3526d2994ce264781e095b37a469c5, type: 3}
+  - {fileID: 21300000, guid: fb89f6537f38e4940827ead0dfea1d4e, type: 3}
+  - {fileID: 21300000, guid: 565421b49e519924a9c6c8e9d79fd1df, type: 3}
+  - {fileID: 21300000, guid: 3ab3e045b6fd4a848a24551fadf5a738, type: 3}
+  - {fileID: 21300000, guid: 8eea8df5abe77554799021706ad44d71, type: 3}
+  - {fileID: 21300000, guid: 57fbd156092d75d40b2cefdefe1b5d4b, type: 3}
+  - {fileID: 21300000, guid: 030ce9a9c9008c2479a74e1fa744024d, type: 3}
+  - {fileID: 21300000, guid: 20bb356a73f1a6b41a74ab895ceb6254, type: 3}
+  - {fileID: 21300000, guid: 01f7e0fa0db4b32448b670b14ef7707a, type: 3}
+  - {fileID: 21300000, guid: 1d96aa6c85d69bc4e838c8a5fecbc638, type: 3}
+  - {fileID: 21300000, guid: f932b9bc259c288438aacc6a668f94a5, type: 3}
+  - {fileID: 21300000, guid: 7e46a43d0acf93f449f041f4e8f4d4cf, type: 3}
+  - {fileID: 21300000, guid: c9fbc38ecd6241e49b5eba05612d6944, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Gui Yellow Small 2 Button Hover
+  - Gui Yellow Small 2 Button Normal
+  - Button Next Hover
+  - Gui Yellow Small 1 Button Normal
+  - Button Next Normal
+  - Gui Yellow Big 1 Button Normal
+  - Button Incdec Big Normal
+  - Icon Plus
+  - Button Incdec Big Hover
+  - Gui Yellow Small 1 Button Hover
+  - Gui Toggle Button On
+  - Gui Yellow Big 1 Button Hover
+  - Button Preview Normal
+  - Button Preview Hover
+  - Gui Toggle Button Off
+  - Icon Minus
+  m_RenderDataMap: {}
+  m_Tag: PopUpButtonAtlas
+  m_IsVariant: 0

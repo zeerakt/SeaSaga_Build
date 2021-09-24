@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GUIElementsAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 3b7d95f42d453cf44a6b8bf820f0b439, type: 3}
+    - {fileID: 2800000, guid: 608e4030576a5e7499d1589434b550af, type: 3}
+    - {fileID: 2800000, guid: 93815bee4ab4c5e4688bbe4c92a8a445, type: 3}
+    - {fileID: 2800000, guid: d4db142451239364d86a4359b6664d67, type: 3}
+    - {fileID: 2800000, guid: ac2e3d6b74ff39042b5ad088c3138698, type: 3}
+    - {fileID: 2800000, guid: d7674eed7cf1ba443b5538fb18520b51, type: 3}
+    - {fileID: 2800000, guid: 2061d81199a907542a888a334450fee4, type: 3}
+    - {fileID: 2800000, guid: 7517ceb5f40ff9b459e915536ad586a2, type: 3}
+    - {fileID: 2800000, guid: c4a640c6163d7a54eaa9b0518fa0b785, type: 3}
+    - {fileID: 2800000, guid: b5e769756e7035a48853ec16f953f915, type: 3}
+    - {fileID: 2800000, guid: 9876fd44f387c7e4594dc6c9856d9ca6, type: 3}
+    - {fileID: 2800000, guid: a69b151b914508b4da200bd8e354c5ea, type: 3}
+    - {fileID: 2800000, guid: be480217b2c239144a9dc62e9e0eeb64, type: 3}
+    - {fileID: 2800000, guid: 5dbb3856ff313ed43b8bb331e3ceedc5, type: 3}
+    - {fileID: 2800000, guid: 32f4a3bfc8ec4104d83681458eb0c0db, type: 3}
+    - {fileID: 2800000, guid: 5ab69fe0a1ff47448877e97f6ae82ae4, type: 3}
+    - {fileID: 2800000, guid: a2e2c57451217c24aa17d2648d2f9b78, type: 3}
+    - {fileID: 2800000, guid: ab116923f91ad9b478b8207adf60e0b2, type: 3}
+    - {fileID: 2800000, guid: 67fdc257e83f686479a560f230609074, type: 3}
+    - {fileID: 2800000, guid: c4826b263bfbc52498c4e9f5ba6cadd2, type: 3}
+    - {fileID: 2800000, guid: b327d07a03564b14ea9c4217afafc4d0, type: 3}
+    - {fileID: 2800000, guid: fb79ca39df18dfb4f80902b69f99c8e0, type: 3}
+    - {fileID: 2800000, guid: d57a837b33dddac4c9c060df83c25d46, type: 3}
+    totalSpriteSurfaceArea: 730944
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 608e4030576a5e7499d1589434b550af, type: 3}
+  - {fileID: 21300000, guid: 5ab69fe0a1ff47448877e97f6ae82ae4, type: 3}
+  - {fileID: 21300000, guid: 2061d81199a907542a888a334450fee4, type: 3}
+  - {fileID: 21300000, guid: ab116923f91ad9b478b8207adf60e0b2, type: 3}
+  - {fileID: 21300000, guid: d4db142451239364d86a4359b6664d67, type: 3}
+  - {fileID: 21300000, guid: 9876fd44f387c7e4594dc6c9856d9ca6, type: 3}
+  - {fileID: 21300000, guid: a2e2c57451217c24aa17d2648d2f9b78, type: 3}
+  - {fileID: 21300000, guid: 3b7d95f42d453cf44a6b8bf820f0b439, type: 3}
+  - {fileID: 21300000, guid: b5e769756e7035a48853ec16f953f915, type: 3}
+  - {fileID: 21300000, guid: 7517ceb5f40ff9b459e915536ad586a2, type: 3}
+  - {fileID: 21300000, guid: c4826b263bfbc52498c4e9f5ba6cadd2, type: 3}
+  - {fileID: 21300000, guid: 5dbb3856ff313ed43b8bb331e3ceedc5, type: 3}
+  - {fileID: 21300000, guid: c4a640c6163d7a54eaa9b0518fa0b785, type: 3}
+  - {fileID: 21300000, guid: be480217b2c239144a9dc62e9e0eeb64, type: 3}
+  - {fileID: 21300000, guid: 67fdc257e83f686479a560f230609074, type: 3}
+  - {fileID: 21300000, guid: fb79ca39df18dfb4f80902b69f99c8e0, type: 3}
+  - {fileID: 21300000, guid: b327d07a03564b14ea9c4217afafc4d0, type: 3}
+  - {fileID: 21300000, guid: a69b151b914508b4da200bd8e354c5ea, type: 3}
+  - {fileID: 21300000, guid: ac2e3d6b74ff39042b5ad088c3138698, type: 3}
+  - {fileID: 21300000, guid: d57a837b33dddac4c9c060df83c25d46, type: 3}
+  - {fileID: 21300000, guid: d7674eed7cf1ba443b5538fb18520b51, type: 3}
+  - {fileID: 21300000, guid: 93815bee4ab4c5e4688bbe4c92a8a445, type: 3}
+  - {fileID: 21300000, guid: 32f4a3bfc8ec4104d83681458eb0c0db, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Gui Bigl Ribbon
+  - Gui Radio Button Dot
+  - Gui Load Bar Full
+  - Gui Small Incdec Plate
+  - Gui Check Box
+  - Gui Middle Ribbon Normal
+  - Gui Radio Button
+  - Gui Big Incdec Plate
+  - Gui Middle Ribbon Hover
+  - Gui Load Bar Mask
+  - Gui Toggle Button Plate
+  - Gui Progressbar Control
+  - Gui Load Bar Plate
+  - Gui Navigation Full
+  - Gui Small Ribbon
+  - Icon Minus
+  - Gui Toggle Button Switch
+  - Gui Navigation Empty
+  - Gui Input Big
+  - Icon Plus
+  - Gui Input Small
+  - Gui Check Box Check
+  - Gui Progressbar Plate
+  m_RenderDataMap: {}
+  m_Tag: GUIElementsAtlas
+  m_IsVariant: 0

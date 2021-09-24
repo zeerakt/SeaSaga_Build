@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SymbolsAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e850d559fc302e24681afff57c9b25ee, type: 3}
+    - {fileID: 2800000, guid: 73dcb79250a15704792324274befbba0, type: 3}
+    - {fileID: 2800000, guid: 60c9accf004b7e04b9d25f7327ff664d, type: 3}
+    - {fileID: 2800000, guid: 2d286363172bcdd4e94b5769cb9af0a1, type: 3}
+    - {fileID: 2800000, guid: 2d9c632c027394845be443a4b9554298, type: 3}
+    - {fileID: 2800000, guid: 0a323deb5a02b1a40b7d2be4d5760c5f, type: 3}
+    - {fileID: 2800000, guid: 9c911fb81ad043e4ebb24b375ff37d3c, type: 3}
+    - {fileID: 2800000, guid: 4d351f9be9101fb4c9eac03d3524d8a2, type: 3}
+    - {fileID: 2800000, guid: 4b87a0ba51f3bbf42a7ba98559482dc8, type: 3}
+    - {fileID: 2800000, guid: 696004c809e51614dbf05e7d3fffe461, type: 3}
+    - {fileID: 2800000, guid: e7aede8fa66d0e242900e021835f4c72, type: 3}
+    - {fileID: 2800000, guid: 10d8d80886270c74abf601fa6ca7c8a1, type: 3}
+    totalSpriteSurfaceArea: 1190700
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 73dcb79250a15704792324274befbba0, type: 3}
+  - {fileID: 21300000, guid: 2d286363172bcdd4e94b5769cb9af0a1, type: 3}
+  - {fileID: 21300000, guid: 10d8d80886270c74abf601fa6ca7c8a1, type: 3}
+  - {fileID: 21300000, guid: 9c911fb81ad043e4ebb24b375ff37d3c, type: 3}
+  - {fileID: 21300000, guid: 696004c809e51614dbf05e7d3fffe461, type: 3}
+  - {fileID: 21300000, guid: e850d559fc302e24681afff57c9b25ee, type: 3}
+  - {fileID: 21300000, guid: 4b87a0ba51f3bbf42a7ba98559482dc8, type: 3}
+  - {fileID: 21300000, guid: 4d351f9be9101fb4c9eac03d3524d8a2, type: 3}
+  - {fileID: 21300000, guid: 0a323deb5a02b1a40b7d2be4d5760c5f, type: 3}
+  - {fileID: 21300000, guid: 2d9c632c027394845be443a4b9554298, type: 3}
+  - {fileID: 21300000, guid: e7aede8fa66d0e242900e021835f4c72, type: 3}
+  - {fileID: 21300000, guid: 60c9accf004b7e04b9d25f7327ff664d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PopUp A
+  - PopUp Diamond
+  - PopUp Ten
+  - PopUp J
+  - PopUp Q
+  - PopUp Wild
+  - PopUp Nine
+  - PopUp K
+  - PopUp Heart
+  - PopUp FreeSpin
+  - PopUp Scatter
+  - PopUp Bonus
+  m_RenderDataMap: {}
+  m_Tag: SymbolsAtlas
+  m_IsVariant: 0

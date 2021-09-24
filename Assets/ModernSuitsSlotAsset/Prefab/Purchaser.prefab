@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1754566507179232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4468848661959634}
+  - component: {fileID: 114469100572762340}
+  - component: {fileID: 114962611060514322}
+  - component: {fileID: 7582862431585729415}
+  m_Layer: 0
+  m_Name: Purchaser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4468848661959634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754566507179232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1301.671, y: 527.47534, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114469100572762340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754566507179232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3f1d65a6a59764da42045903cc9599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumable:
+  - name: 5000 coins
+    prefab: {fileID: 114034147901532354, guid: 8242e01caef2b2f449ab236567defbac, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    kProductID: coin_1
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7582862431585729415}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5000
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: 11000 coins
+    prefab: {fileID: 114034147901532354, guid: 295b748b57ac29545ad98b324dee2e79, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    kProductID: coin_2
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7582862431585729415}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 11000
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: 27000 coins
+    prefab: {fileID: 114034147901532354, guid: be568740fd86d3d4691e46bb81b40297, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    kProductID: coin_3
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7582862431585729415}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 27000
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: 110000 coins
+    prefab: {fileID: 114034147901532354, guid: b95e6ee77c6787f499bf205b1d5da735, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    kProductID: coin_4
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7582862431585729415}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 110000
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: 110000 coins sale
+    prefab: {fileID: 206517384421044667, guid: 10222c93ebdadc1479c1b19abbce648f, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    kProductID: coindeal_100000
+    shopType: 2
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7582862431585729415}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 110000
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: 27000 coins sale
+    prefab: {fileID: 206517384421044667, guid: 2eaec9508794dff4186aaf43b7060428, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    kProductID: coindeal_27000
+    shopType: 2
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7582862431585729415}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 27000
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  nonConsumable: []
+  subscriptions: []
+--- !u!114 &114962611060514322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754566507179232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064cc09f32b3db44c947fa14fe0810c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7582862431585729415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754566507179232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67cc00221d4c90b4cb579cac12c11114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

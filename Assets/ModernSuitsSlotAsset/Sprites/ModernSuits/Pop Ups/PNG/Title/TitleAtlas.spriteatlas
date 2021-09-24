@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TitleAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 414cb4512659f2b469f96aa9814b10a2, type: 3}
+    - {fileID: 2800000, guid: c8ee4b6c4ab72d942bcf05052694c721, type: 3}
+    - {fileID: 2800000, guid: d87bf9e11c96dd74d8371fe41e510b44, type: 3}
+    - {fileID: 2800000, guid: 063845979d02f094cac636a5f9344a32, type: 3}
+    - {fileID: 2800000, guid: 0a3f79060f30d2d43a327079f36331d3, type: 3}
+    - {fileID: 2800000, guid: efe64b2cc1213334c8db9f9b22c63126, type: 3}
+    - {fileID: 2800000, guid: 3ca9b27abd2128045ae2d1c82719e375, type: 3}
+    - {fileID: 2800000, guid: 29ff76174618e5e45af3827f010d7a62, type: 3}
+    - {fileID: 2800000, guid: 54f706db522fef645b612984d5456f22, type: 3}
+    - {fileID: 2800000, guid: 7076ef8439f7c954ea286a72f59ddbed, type: 3}
+    - {fileID: 2800000, guid: f014c6c6cc1cd7f4183d42071d531e6c, type: 3}
+    - {fileID: 2800000, guid: 0eb4e1780ac31dc43bc2da892f581170, type: 3}
+    totalSpriteSurfaceArea: 756559
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 414cb4512659f2b469f96aa9814b10a2, type: 3}
+  - {fileID: 21300000, guid: d87bf9e11c96dd74d8371fe41e510b44, type: 3}
+  - {fileID: 21300000, guid: 7076ef8439f7c954ea286a72f59ddbed, type: 3}
+  - {fileID: 21300000, guid: 0a3f79060f30d2d43a327079f36331d3, type: 3}
+  - {fileID: 21300000, guid: f014c6c6cc1cd7f4183d42071d531e6c, type: 3}
+  - {fileID: 21300000, guid: 29ff76174618e5e45af3827f010d7a62, type: 3}
+  - {fileID: 21300000, guid: 063845979d02f094cac636a5f9344a32, type: 3}
+  - {fileID: 21300000, guid: 0eb4e1780ac31dc43bc2da892f581170, type: 3}
+  - {fileID: 21300000, guid: 3ca9b27abd2128045ae2d1c82719e375, type: 3}
+  - {fileID: 21300000, guid: 54f706db522fef645b612984d5456f22, type: 3}
+  - {fileID: 21300000, guid: efe64b2cc1213334c8db9f9b22c63126, type: 3}
+  - {fileID: 21300000, guid: c8ee4b6c4ab72d942bcf05052694c721, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - TitleMiniGame
+  - Title Big Deal
+  - Title Settings
+  - Title Help
+  - Title Shop
+  - Title Minor Symbols
+  - Title Bigwin
+  - TitleDailyBonus
+  - Title Major Symbols
+  - Title Pay Lines
+  - Title Levelup
+  - Title About
+  m_RenderDataMap: {}
+  m_Tag: TitleAtlas
+  m_IsVariant: 0

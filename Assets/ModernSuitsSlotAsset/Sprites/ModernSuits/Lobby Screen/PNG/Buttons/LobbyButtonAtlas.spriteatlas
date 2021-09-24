@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LobbyButtonAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 83bca1a647a210544812a3573c0bb99c, type: 3}
+    - {fileID: 2800000, guid: 0f136bba8c64fd54cb54cc685717350f, type: 3}
+    - {fileID: 2800000, guid: 8abd58b47bd0afe4abb7df329d3acd3c, type: 3}
+    - {fileID: 2800000, guid: e78ee058b2380944daec2c7faa0a4d70, type: 3}
+    - {fileID: 2800000, guid: 24f7c53eae975684b8e230613308bc61, type: 3}
+    - {fileID: 2800000, guid: 5e8a7b27cee92814788090cee7f6981b, type: 3}
+    - {fileID: 2800000, guid: 7cf7657fae6eaef40ac32e2fd51ae195, type: 3}
+    - {fileID: 2800000, guid: e88bf8564f0a97e4c99ba671309086e0, type: 3}
+    totalSpriteSurfaceArea: 276760
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8abd58b47bd0afe4abb7df329d3acd3c, type: 3}
+  - {fileID: 21300000, guid: e88bf8564f0a97e4c99ba671309086e0, type: 3}
+  - {fileID: 21300000, guid: 83bca1a647a210544812a3573c0bb99c, type: 3}
+  - {fileID: 21300000, guid: 5e8a7b27cee92814788090cee7f6981b, type: 3}
+  - {fileID: 21300000, guid: e78ee058b2380944daec2c7faa0a4d70, type: 3}
+  - {fileID: 21300000, guid: 0f136bba8c64fd54cb54cc685717350f, type: 3}
+  - {fileID: 21300000, guid: 24f7c53eae975684b8e230613308bc61, type: 3}
+  - {fileID: 21300000, guid: 7cf7657fae6eaef40ac32e2fd51ae195, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Button Facebook Normal
+  - Gui Pink Sq Button Hover
+  - Gui Pink Sq Button Normal
+  - Button Menu Hover
+  - Button Help Hover
+  - Button Facebook Hover
+  - Button Help Normal
+  - Button Menu Normal
+  m_RenderDataMap: {}
+  m_Tag: LobbyButtonAtlas
+  m_IsVariant: 0

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3129708964047944582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129708964047944581}
+  - component: {fileID: 3129708964189078926}
+  - component: {fileID: 3129708964047944580}
+  m_Layer: 0
+  m_Name: SoundMaster
+  m_TagString: sound_master
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129708964047944581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129708964047944582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3129708964189078926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129708964047944582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fbf0e38f09eaf4189b8339c266b017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 0}
+  buttonClick: {fileID: 0}
+  openWindow: {fileID: 8300000, guid: 5ad0b751a39ec544696b6df4b9084f50, type: 3}
+  closeWindow: {fileID: 8300000, guid: 5ad0b751a39ec544696b6df4b9084f50, type: 3}
+  audioSoucesMaxCount: 15
+  saveSettings: 1
+  musicVolumeMult: 1
+  winCoins: {fileID: 0}
+  slotRotation:
+  - {fileID: 8300000, guid: eb063cd2f570e4a4f8a501a633cb06f1, type: 3}
+  - {fileID: 8300000, guid: 41b8111f6432fb443b27ad279c8edd8d, type: 3}
+  - {fileID: 8300000, guid: ca19748c9c69e934a9417d268f9f0c59, type: 3}
+  - {fileID: 8300000, guid: 1ebcc4b08c2483a44b1f457d384b08d9, type: 3}
+  - {fileID: 8300000, guid: f0ec916723a4aa642a1465f771778cfc, type: 3}
+  slotLoose: {fileID: 0}
+  reelStop:
+  - {fileID: 8300000, guid: e3110df8b9459d94295a334b98f58668, type: 3}
+  - {fileID: 8300000, guid: 81085339dd8a2dc40a084bcd0a8420e9, type: 3}
+  - {fileID: 8300000, guid: e3110df8b9459d94295a334b98f58668, type: 3}
+  - {fileID: 8300000, guid: e3110df8b9459d94295a334b98f58668, type: 3}
+  winFreeSpin: {fileID: 0}
+  bonusGame: {fileID: 8300000, guid: 8a0a995b3d7b8db4ab457dbf54f3cfc6, type: 3}
+--- !u!114 &3129708964047944580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129708964047944582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064cc09f32b3db44c947fa14fe0810c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

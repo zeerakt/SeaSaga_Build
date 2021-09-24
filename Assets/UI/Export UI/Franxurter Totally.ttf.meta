@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 239309fbdfe71ca4799a5e79f3ff5f09
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Franxurter Totally
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8b3a8b43e1714d44dbc0e56e02853c06, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PopUpAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 8f85eee3767e13b4a81652f73134c47e, type: 3}
+    - {fileID: 2800000, guid: 0ae25f7f87eebd94ab9f4b3dfd08305c, type: 3}
+    - {fileID: 2800000, guid: b9424a46a5ebd42468e7bf70717f1a3f, type: 3}
+    - {fileID: 2800000, guid: c2563294c5dd28742b10d3e2ae9e1bea, type: 3}
+    - {fileID: 2800000, guid: 9602a375a91eee542b2e5f139b95e6a5, type: 3}
+    - {fileID: 2800000, guid: bcdc5045db9d648489ab1561c22d42ea, type: 3}
+    - {fileID: 2800000, guid: 2a933d4a38ccc9c46afe10e80b1cb912, type: 3}
+    - {fileID: 2800000, guid: 3bfd37ed0504cbb43bfc10bcf1f88915, type: 3}
+    totalSpriteSurfaceArea: 435511
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8f85eee3767e13b4a81652f73134c47e, type: 3}
+  - {fileID: 21300000, guid: c2563294c5dd28742b10d3e2ae9e1bea, type: 3}
+  - {fileID: 21300000, guid: bcdc5045db9d648489ab1561c22d42ea, type: 3}
+  - {fileID: 21300000, guid: 9602a375a91eee542b2e5f139b95e6a5, type: 3}
+  - {fileID: 21300000, guid: b9424a46a5ebd42468e7bf70717f1a3f, type: 3}
+  - {fileID: 21300000, guid: 2a933d4a38ccc9c46afe10e80b1cb912, type: 3}
+  - {fileID: 21300000, guid: 3bfd37ed0504cbb43bfc10bcf1f88915, type: 3}
+  - {fileID: 21300000, guid: 0ae25f7f87eebd94ab9f4b3dfd08305c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Pop Up Title Lamps
+  - Gui Button Exit Hover
+  - Gui Progressbar Control
+  - Gui Button Exit Normal
+  - Gui Bigl Ribbon
+  - Levelup Star
+  - Modernsuits Logo
+  - Gui Big Incdec Plate
+  m_RenderDataMap: {}
+  m_Tag: PopUpAtlas
+  m_IsVariant: 0

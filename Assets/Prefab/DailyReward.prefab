@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &814541932098637772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108872025866355346}
+  - component: {fileID: 814541932098637774}
+  - component: {fileID: 814541932098637773}
+  - component: {fileID: 6406232032524276719}
+  - component: {fileID: 1533331606830822091}
+  m_Layer: 0
+  m_Name: DailyReward
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1108872025866355346
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814541932098637772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1449.5507, y: 888.8679}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &814541932098637774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814541932098637772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d443eb333f3164897fd28e650a6bd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rewards:
+  - coins: 10
+    icon: {fileID: 21300000, guid: f59ec0c7411fbec45be07c731642907e, type: 3}
+    iconOld: {fileID: 21300000, guid: f59ec0c7411fbec45be07c731642907e, type: 3}
+    ApplyRewardEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - coins: 15
+    icon: {fileID: 21300000, guid: 0300ba36291bc14499963aa66c0196ff, type: 3}
+    iconOld: {fileID: 21300000, guid: 0300ba36291bc14499963aa66c0196ff, type: 3}
+    ApplyRewardEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - coins: 20
+    icon: {fileID: 21300000, guid: 7dad9e83f7ff2db4ab0123eece68ddd3, type: 3}
+    iconOld: {fileID: 21300000, guid: 7dad9e83f7ff2db4ab0123eece68ddd3, type: 3}
+    ApplyRewardEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - coins: 25
+    icon: {fileID: 21300000, guid: a2ad0aa27159e9c4ea0fb5c3ea98f558, type: 3}
+    iconOld: {fileID: 21300000, guid: a2ad0aa27159e9c4ea0fb5c3ea98f558, type: 3}
+    ApplyRewardEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - coins: 30
+    icon: {fileID: 21300000, guid: 359a787878ea17c4eaa33de0681d1384, type: 3}
+    iconOld: {fileID: 21300000, guid: 359a787878ea17c4eaa33de0681d1384, type: 3}
+    ApplyRewardEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - coins: 35
+    icon: {fileID: 21300000, guid: c72ed9a3326a7b04d8f02dfc61c7ef61, type: 3}
+    iconOld: {fileID: 21300000, guid: c72ed9a3326a7b04d8f02dfc61c7ef61, type: 3}
+    ApplyRewardEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - coins: 40
+    icon: {fileID: 21300000, guid: a820cb793b206cf43b84db8563d5a536, type: 3}
+    iconOld: {fileID: 21300000, guid: a820cb793b206cf43b84db8563d5a536, type: 3}
+    ApplyRewardEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  startFromZeroDayReward: 1
+  repeatingRewards: 1
+  TimePassEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &814541932098637773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814541932098637772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064cc09f32b3db44c947fa14fe0810c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6406232032524276719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814541932098637772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5658485e36d38f141a23b75ec12e97ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winOptions:
+    inAnim: 0
+    outAnim: 0
+    inMoveAnim:
+      toPosition: 9
+      time: 0.2
+      customPosition: {x: 0, y: 0, z: 0}
+      useMask: 0
+    outMoveAnim:
+      toPosition: 9
+      time: 0.2
+      customPosition: {x: 0, y: 0, z: 0}
+      useMask: 0
+    inScaleAnim:
+      scaleType: 0
+      time: 0.2
+    outScaleAnim:
+      scaleType: 0
+      time: 0.2
+    inFadeAnim:
+      time: 0.2
+    outFadeAnim:
+      time: 0.2
+    instantiatePosition: 0
+    position: {x: 0, y: 0}
+    inEase: 0
+    outEase: 0
+  backGround: {fileID: 0}
+  guiPanel: {fileID: 0}
+  guiMask: {fileID: 0}
+  completeCallback_in:
+    m_PersistentCalls:
+      m_Calls: []
+  completeCallback_out:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1533331606830822091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814541932098637772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1926d4f042581f4489ff0487d2c45b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 
+  openClip: {fileID: 0}
+  playOpen: 0
+  closeClip: {fileID: 0}
+  playClose: 0

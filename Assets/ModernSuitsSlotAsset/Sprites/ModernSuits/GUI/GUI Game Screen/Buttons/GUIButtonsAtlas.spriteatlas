@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GUIButtonsAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 23049d211f0984c4b814630a35ee8892, type: 3}
+    - {fileID: 2800000, guid: 540abf8d85853de459f58afba0e13579, type: 3}
+    - {fileID: 2800000, guid: b4894cdac1cd84d41abebbbe0a76f456, type: 3}
+    - {fileID: 2800000, guid: 97d63863c056d9044851da423ecbb40a, type: 3}
+    - {fileID: 2800000, guid: f670fc94336c4d3468d758ed1c318b43, type: 3}
+    - {fileID: 2800000, guid: e4379e4a6065d9949b851f0f81c8f0ca, type: 3}
+    - {fileID: 2800000, guid: 30755164f81f41b4a81704d7358b9c57, type: 3}
+    - {fileID: 2800000, guid: 3b070b2493f3e78478fae1115a8e03fe, type: 3}
+    - {fileID: 2800000, guid: dafa3cbd8a253044a802f85cca6204bb, type: 3}
+    - {fileID: 2800000, guid: 5fc7618fc9164ac4d8b27200491c34f0, type: 3}
+    - {fileID: 2800000, guid: b0c03040808b9e94ba05fad8d1ee6394, type: 3}
+    - {fileID: 2800000, guid: b7e3536b138a1ec41bd092c12df7b4ef, type: 3}
+    - {fileID: 2800000, guid: 44adacaf9bfd3c14f823dd2e4643463b, type: 3}
+    - {fileID: 2800000, guid: 4a06c0de717449b4a84ca791d79ac397, type: 3}
+    totalSpriteSurfaceArea: 657210
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b0c03040808b9e94ba05fad8d1ee6394, type: 3}
+  - {fileID: 21300000, guid: 23049d211f0984c4b814630a35ee8892, type: 3}
+  - {fileID: 21300000, guid: 97d63863c056d9044851da423ecbb40a, type: 3}
+  - {fileID: 21300000, guid: 3b070b2493f3e78478fae1115a8e03fe, type: 3}
+  - {fileID: 21300000, guid: 30755164f81f41b4a81704d7358b9c57, type: 3}
+  - {fileID: 21300000, guid: f670fc94336c4d3468d758ed1c318b43, type: 3}
+  - {fileID: 21300000, guid: e4379e4a6065d9949b851f0f81c8f0ca, type: 3}
+  - {fileID: 21300000, guid: b4894cdac1cd84d41abebbbe0a76f456, type: 3}
+  - {fileID: 21300000, guid: b7e3536b138a1ec41bd092c12df7b4ef, type: 3}
+  - {fileID: 21300000, guid: 540abf8d85853de459f58afba0e13579, type: 3}
+  - {fileID: 21300000, guid: dafa3cbd8a253044a802f85cca6204bb, type: 3}
+  - {fileID: 21300000, guid: 4a06c0de717449b4a84ca791d79ac397, type: 3}
+  - {fileID: 21300000, guid: 5fc7618fc9164ac4d8b27200491c34f0, type: 3}
+  - {fileID: 21300000, guid: 44adacaf9bfd3c14f823dd2e4643463b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Gui Pink Big 2 Button Normal
+  - Gui Yellow Middle Button Normal
+  - Button Incdec Big Hover
+  - Button Menu Hover
+  - Button Incdec Small Normal
+  - Button Incdec Big Normal
+  - Button Incdec Small Hover
+  - Button Help Normal
+  - Gui Pink Big Button Hover
+  - Button Help Hover
+  - Button Menu Normal
+  - Gui Yellow Middle Button Hover
+  - Gui Pink Big 2 Button Hover
+  - Gui Pink Big Button Normal
+  m_RenderDataMap: {}
+  m_Tag: GUIButtonsAtlas
+  m_IsVariant: 0
