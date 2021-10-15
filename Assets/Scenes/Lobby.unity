@@ -13390,7 +13390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 898584563557666263, guid: 571fd0a5817659e40add11598425a4dd, type: 3}
       propertyPath: _sceneLoadBuildingIndex
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5720554618875500724, guid: 571fd0a5817659e40add11598425a4dd, type: 3}
       propertyPath: m_Name

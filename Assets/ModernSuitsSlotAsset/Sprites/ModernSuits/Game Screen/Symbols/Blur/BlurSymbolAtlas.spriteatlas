@@ -43,18 +43,6 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: bc42872a6614a5b459eb712603163671, type: 3}
-    - {fileID: 2800000, guid: 8fa72f449fba2a64a86cefd0b50eb20a, type: 3}
-    - {fileID: 2800000, guid: 79f12ec51702d93499b1db45348422b6, type: 3}
-    - {fileID: 2800000, guid: 16c0635d86565434e87119c5ef896f5c, type: 3}
-    - {fileID: 2800000, guid: cfe31639ffe980a42a6ab8cf164fbe37, type: 3}
-    - {fileID: 2800000, guid: c8aeaed6741737047a755fc84da9e357, type: 3}
-    - {fileID: 2800000, guid: 0e66e69d33d688846b0e13c8449575f0, type: 3}
-    - {fileID: 2800000, guid: a4e43d16e3b23e347adc9e978af9df1c, type: 3}
-    - {fileID: 2800000, guid: ea95dafb030bce342a422d27b676e695, type: 3}
-    - {fileID: 2800000, guid: cf7506eefada29b479ed31c1687839a3, type: 3}
-    - {fileID: 2800000, guid: 7a7889d017e18a84582aaa8eb1906041, type: 3}
-    - {fileID: 2800000, guid: b8e77cdc420e05e47a2e98e7a7dbca50, type: 3}
     - {fileID: 2800000, guid: dfb6c339f371ce14387956a48fca3c5e, type: 3}
     - {fileID: 2800000, guid: 7faa710326765e342a07ea1b06a198ee, type: 3}
     - {fileID: 2800000, guid: 312e60efdeda42e4b97b85b18b95047c, type: 3}
@@ -66,58 +54,34 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 684c3d0361b6b1e4db6e994bd9f85796, type: 3}
     - {fileID: 2800000, guid: 7b0df07212f961d4f94f3655bf25adbb, type: 3}
     - {fileID: 2800000, guid: bbe367996db2bbe4d8042d2e81cd9b25, type: 3}
-    totalSpriteSurfaceArea: 1359616
+    totalSpriteSurfaceArea: 717568
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: d52474c01b943c842b98c1fb8e230264, type: 3}
-  - {fileID: 21300000, guid: 7a7889d017e18a84582aaa8eb1906041, type: 3}
   - {fileID: 21300000, guid: 1fe20941ddf4ed54bb87cd51a85ec404, type: 3}
   - {fileID: 21300000, guid: 7b0df07212f961d4f94f3655bf25adbb, type: 3}
   - {fileID: 21300000, guid: 7faa710326765e342a07ea1b06a198ee, type: 3}
   - {fileID: 21300000, guid: 3f5dba0322507e1488c26c1c26ca0e4a, type: 3}
   - {fileID: 21300000, guid: 684c3d0361b6b1e4db6e994bd9f85796, type: 3}
   - {fileID: 21300000, guid: c252eaa308e0df8428fe29be500f1d5e, type: 3}
-  - {fileID: 21300000, guid: 8fa72f449fba2a64a86cefd0b50eb20a, type: 3}
   - {fileID: 21300000, guid: e43c6815b08d79743aeeddf53930cf3c, type: 3}
-  - {fileID: 21300000, guid: 79f12ec51702d93499b1db45348422b6, type: 3}
-  - {fileID: 21300000, guid: a4e43d16e3b23e347adc9e978af9df1c, type: 3}
-  - {fileID: 21300000, guid: c8aeaed6741737047a755fc84da9e357, type: 3}
   - {fileID: 21300000, guid: dfb6c339f371ce14387956a48fca3c5e, type: 3}
-  - {fileID: 21300000, guid: cfe31639ffe980a42a6ab8cf164fbe37, type: 3}
   - {fileID: 21300000, guid: bbe367996db2bbe4d8042d2e81cd9b25, type: 3}
-  - {fileID: 21300000, guid: bc42872a6614a5b459eb712603163671, type: 3}
-  - {fileID: 21300000, guid: ea95dafb030bce342a422d27b676e695, type: 3}
-  - {fileID: 21300000, guid: b8e77cdc420e05e47a2e98e7a7dbca50, type: 3}
-  - {fileID: 21300000, guid: 16c0635d86565434e87119c5ef896f5c, type: 3}
-  - {fileID: 21300000, guid: 0e66e69d33d688846b0e13c8449575f0, type: 3}
-  - {fileID: 21300000, guid: cf7506eefada29b479ed31c1687839a3, type: 3}
   - {fileID: 21300000, guid: 312e60efdeda42e4b97b85b18b95047c, type: 3}
   m_PackedSpriteNamesToIndex:
   - Kb
-  - Blured Q
   - Jb
   - shellb
   - 10b
   - Qb
   - SCATTERb
   - Octopusb
-  - Blured 9
   - bonusb
-  - Blured 10
-  - Blured Heart
-  - Blured Diamond
   - 9b
-  - Blured Bonus
   - wildb
-  - Blured Wild
-  - Blured J
-  - Blured Scatter
-  - Blured A
-  - Blured FreeSpin
-  - Blured K
   - Ab
   m_RenderDataMap: {}
   m_Tag: BlurSymbolAtlas

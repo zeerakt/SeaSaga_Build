@@ -44,10 +44,9 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: b9e25fd343207c34a9c04c583e676b68, type: 3}
-    - {fileID: 2800000, guid: 5dde102ac2969ed45863049fe1e4c572, type: 3}
     - {fileID: 2800000, guid: 234ce2990e6fdde4f8b21ca002628fd5, type: 3}
     - {fileID: 2800000, guid: 64bf7be0d1a78b340943ebc03b7df4e5, type: 3}
-    totalSpriteSurfaceArea: 7254016
+    totalSpriteSurfaceArea: 6729728
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -56,12 +55,10 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 64bf7be0d1a78b340943ebc03b7df4e5, type: 3}
   - {fileID: 21300000, guid: b9e25fd343207c34a9c04c583e676b68, type: 3}
   - {fileID: 21300000, guid: 234ce2990e6fdde4f8b21ca002628fd5, type: 3}
-  - {fileID: 21300000, guid: 5dde102ac2969ed45863049fe1e4c572, type: 3}
   m_PackedSpriteNamesToIndex:
   - background
   - background
   - background
-  - Bkg Modern Suits
   m_RenderDataMap: {}
   m_Tag: NewBackgroundAltas
   m_IsVariant: 0
