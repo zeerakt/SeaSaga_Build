@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
 using UnityEngine.Events;
+using EnergySystem;
 
 #if UNITY_EDITOR
     using UnityEditor;
@@ -21,6 +22,8 @@ namespace Mkey
         private bool repeatingRewards = true;
         [HideInInspector]
         public UnityEvent TimePassEvent;
+  
+        public EnergyManager en;
 
         #region temp vars
         private int hours = 24;
@@ -175,6 +178,7 @@ namespace Mkey
             if (reward==null) return;
             if (debug) Debug.Log("add coins: " + reward.coins);
             MPlayer.AddCoins(reward.coins);
+            en.SubtractEnergy(-5);
         }
 
         public void ResetData()

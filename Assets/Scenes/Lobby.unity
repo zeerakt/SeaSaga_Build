@@ -4129,6 +4129,10 @@ PrefabInstance:
       value: DailyReward
       objectReference: {fileID: 0}
     - target: {fileID: 814541932098637774, guid: 7bed5e535855c9e4dae2ef0ed1f45234, type: 3}
+      propertyPath: en
+      value: 
+      objectReference: {fileID: 1293508301}
+    - target: {fileID: 814541932098637774, guid: 7bed5e535855c9e4dae2ef0ed1f45234, type: 3}
       propertyPath: repeatingRewards
       value: 1
       objectReference: {fileID: 0}
@@ -5678,6 +5682,10 @@ PrefabInstance:
     - target: {fileID: 7206803113671767289, guid: a79fffb829c72494f99e46517b9d711f, type: 3}
       propertyPath: m_Name
       value: ButtonFBLogin
+      objectReference: {fileID: 0}
+    - target: {fileID: 7206803113671767289, guid: a79fffb829c72494f99e46517b9d711f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a79fffb829c72494f99e46517b9d711f, type: 3}
@@ -9383,19 +9391,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_SizeDelta.x
@@ -9435,11 +9443,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1054
+      value: 314
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 673
+      value: -96
       objectReference: {fileID: 0}
     - target: {fileID: 7101971487012626458, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9456,6 +9464,18 @@ PrefabInstance:
     - target: {fileID: 7101971487012626459, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
       propertyPath: m_Name
       value: LevelGUIController
+      objectReference: {fileID: 0}
+    - target: {fileID: 8971726770929206669, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8971726770929206669, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8971726770929206669, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87bc27cd582499d45b5dbfa4125f0504, type: 3}
@@ -11923,6 +11943,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114162945045970326, guid: 792241f7f6791104da79206f0de47bd1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 792241f7f6791104da79206f0de47bd1, type: 3}
 --- !u!1001 &1966624208
@@ -13390,7 +13414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 898584563557666263, guid: 571fd0a5817659e40add11598425a4dd, type: 3}
       propertyPath: _sceneLoadBuildingIndex
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5720554618875500724, guid: 571fd0a5817659e40add11598425a4dd, type: 3}
       propertyPath: m_Name

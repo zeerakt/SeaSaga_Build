@@ -20,8 +20,8 @@
     <file>Assets/Plugins/Android/com.android.support.support-vector-drawable-25.3.1.aar</file>
   </files>
   <settings>
-    <setting name="androidAbis" value="armeabi-v7a" />
-    <setting name="bundleId" value="com.DefaultCompany.SegaSaga" />
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.magictimes.SeaSaga" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradleTemplateEnabled" value="False" />

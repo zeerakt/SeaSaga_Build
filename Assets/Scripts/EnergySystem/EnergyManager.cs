@@ -24,6 +24,8 @@ namespace EnergySystem
 
         private void Start()
         {
+
+            
             LoadEnergy();
         }
 

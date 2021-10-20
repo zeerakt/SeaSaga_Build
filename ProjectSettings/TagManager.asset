@@ -6,6 +6,8 @@ TagManager:
   tags:
   - sound_master
   - interface
+  - SlotController
+  - Button
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ using WinLoseSystem;
 
 public class GameController : MonoBehaviour
 {
+    public int[] Garray;
     //[SerializeField]
     //private int _playerStartPoints;
     [SerializeField]
