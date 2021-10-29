@@ -150,10 +150,10 @@ PlayerSettings:
     iPhone: com.magictimes.SeaSaga
   buildNumber:
     Standalone: 0
-    iPhone: 1
+    iPhone: 0
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
-  AndroidBundleVersionCode: 6
+  AndroidBundleVersionCode: 7
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 30
   AndroidPreferredInstallLocation: 0
@@ -774,6 +774,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
+    4: ADDIAP
     7: ADDIAP
   additionalCompilerArguments: {}
   platformArchitecture: {}
