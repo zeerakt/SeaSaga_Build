@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-
+using MkeyFW;
 namespace EnergySystem
 {
     public class EnergyManager : MonoBehaviour
@@ -21,6 +21,8 @@ namespace EnergySystem
         private bool _energyRestored = true;
 
         private float _timeToNextEnergy;
+        
+        public WheelController wc;
 
         private void Start()
         {
@@ -36,6 +38,7 @@ namespace EnergySystem
                 if (Time.time >= _timeToNextEnergy)
                 {
                     AddEnergy();
+                    wc.SetBlocked(false, false);
                 }
             }
             UpdateEnergyInfo();

@@ -1080,6 +1080,7 @@ MonoBehaviour:
   simPos: 0
   debug: 0
   backGroundButton: {fileID: 0}
+  em: {fileID: 0}
   blocked: 1
 --- !u!82 &6198733924019409880
 AudioSource:

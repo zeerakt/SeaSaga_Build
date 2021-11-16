@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using EnergySystem;
+
 public class LevelButton : MonoBehaviour {
 
     public Image LeftStar;
@@ -12,7 +14,7 @@ public class LevelButton : MonoBehaviour {
     public Button button;
     public Text numberText;
     public bool Interactable { get; private set; }
-
+    
     /// <summary>
     /// Set button interactable if button "active" or appropriate level is passed. Show stars or Lock image
     /// </summary>
@@ -32,8 +34,7 @@ public class LevelButton : MonoBehaviour {
             MiddleStar.sprite = (activeStarsCount > 1) ? FullStarSprite : EmptyStarSprite;
             RightStar.sprite  = (activeStarsCount > 2) ? FullStarSprite : EmptyStarSprite;
         }
-
-        Interactable = active || isPassed;
+        Interactable =  active || isPassed;
         button.interactable = Interactable;
         if (active)
         {

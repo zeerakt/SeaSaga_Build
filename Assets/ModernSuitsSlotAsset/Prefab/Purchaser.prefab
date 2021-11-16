@@ -57,6 +57,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7582862431585729415}
+          m_TargetAssemblyTypeName: 
           m_MethodName: AddCoins
           m_Mode: 3
           m_Arguments:
@@ -78,6 +79,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7582862431585729415}
+          m_TargetAssemblyTypeName: 
           m_MethodName: AddCoins
           m_Mode: 3
           m_Arguments:
@@ -99,6 +101,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7582862431585729415}
+          m_TargetAssemblyTypeName: 
           m_MethodName: AddCoins
           m_Mode: 3
           m_Arguments:
@@ -120,6 +123,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7582862431585729415}
+          m_TargetAssemblyTypeName: 
           m_MethodName: AddCoins
           m_Mode: 3
           m_Arguments:
@@ -141,6 +145,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7582862431585729415}
+          m_TargetAssemblyTypeName: 
           m_MethodName: AddCoins
           m_Mode: 3
           m_Arguments:
@@ -162,6 +167,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7582862431585729415}
+          m_TargetAssemblyTypeName: 
           m_MethodName: AddCoins
           m_Mode: 3
           m_Arguments:
@@ -174,6 +180,8 @@ MonoBehaviour:
           m_CallState: 2
   nonConsumable: []
   subscriptions: []
+  appKey: com.magictimes.seasaga
+  googleKey: com.magictimes.seasaga
 --- !u!114 &114962611060514322
 MonoBehaviour:
   m_ObjectHideFlags: 0

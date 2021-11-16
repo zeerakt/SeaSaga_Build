@@ -4,9 +4,11 @@ using UnityEngine;
 using Mkey;
 using System;
 using UnityEngine.Events;
+using EnergySystem;
 
 namespace MkeyFW // mkey fortune wheel
 {
+
     enum RotDir { Counter, ClockWise }
     public class WheelController : MonoBehaviour
     {
@@ -79,6 +81,8 @@ namespace MkeyFW // mkey fortune wheel
         [SerializeField]
         private SpinButton backGroundButton;
 
+        public EnergyManager em;
+
         public SpinButton BackGroundButton { get { return backGroundButton; } }
 
         public Action<int, bool> SpinResultEvent; // spin result event <coins, isBigWin>
@@ -146,11 +150,15 @@ namespace MkeyFW // mkey fortune wheel
         /// <param name="completeCallBack"></param>
         public void StartSpin(Action completeCallBack)
         {
+            
             if (arrowBeviour) arrowBeviour.CancelTween();
             if (tS != null) return;
             if (debug) Debug.Log("rand: " + rand);
             nextSector = rand;
-            //SetBlocked(true, true);
+            if (em.CurrentEnergyAmount > 1)
+                SetBlocked(false, false);
+            else
+                SetBlocked(true, true);
             CancelLight();
 
             bool soundOn = (SSound) ? SSound.SoundOn : true;
@@ -367,7 +375,7 @@ namespace MkeyFW // mkey fortune wheel
         {
             int coins = 0;
             bool isBigWin = false;
-
+            em.SubtractEnergy(1);
             if (sectors != null && currSector >= 0 && currSector < sectors.Length)
             {
                 Sector s = sectors[currSector];
