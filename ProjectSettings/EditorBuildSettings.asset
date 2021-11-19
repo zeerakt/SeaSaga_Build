@@ -5,49 +5,53 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lobby.unity
     guid: e2e76513ab5530f4588a5016634dfacc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: ba3aa02e1c3697f4ab4bc4075c2b3b32
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2.unity
     guid: b242501904ad8a44d8f24d6b355a8a33
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level3.unity
     guid: fc6b4d166bc0f594783e6a675859463b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4.unity
     guid: e58e9a710497f904b917b614bb5d32ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level5.unity
     guid: 2c30c5d9e02c9f34ebac48145f616794
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level6.unity
     guid: 4fe3d93697bca3246b3686601ee68592
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level7.unity
     guid: a0b99462735d87948a83633cce013c21
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level8.unity
     guid: 0614f1e2e06ffe24c8e53332507e442e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level9.unity
     guid: 22e3ac2e974bf9f479f7d3962e7e3ccf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level10.unity
     guid: 9e3dce031ec7d7f4c90eac045f5a5c3e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level11.unity
     guid: 814f4b853535c594fa78dffc978f9c16
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level12.unity
     guid: 85da5c5922cca1946ba408f25870cbf0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level13.unity
     guid: 4a01b65a319c22041bcad8ecb5870068
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MiniGame.unity
     guid: b3cf5bbec9f625e4f9a07b51e0cf69c2
+  - enabled: 1
+    path: Assets/Samples/In App Purchasing/3.0.1/In App Purchasing Sample/scenes/IAP
+      Demo.unity
+    guid: 215ad0011fac24f08864894427de7abd
   m_configObjects: {}
